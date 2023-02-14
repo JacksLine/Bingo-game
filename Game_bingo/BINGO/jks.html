@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel ="stylesheet" href ="jk.css" type =" text/css"/>
+
+</head>
+<body>
+     
+          
+<h1> BINGO </h1>
+<div id="one">
+<button class="twins" onclick ="popup()" style="background-color:rgb(247, 59, 7) ;">NEW GAME</button>
+</div>
+<br>
+<div>
+<button class="twins" onclick="suff()" style="background-color:goldenrod;">SHUFFLE</button>
+</div>
+<br>
+
+<div id="two">
+
+</div>
+<div id="three">
+
+<table id ="tab" style ="width:20% " >
+   <tr>
+     <td class="jack">
+     <input type="checkbox" id="B" name ="B">
+<label for ="b">B</label></td>
+<td class="jack">
+<input type="checkbox" id="I" name ="I">
+<label for ="b">I</label></td>
+<td class="jack">
+<input type="checkbox" id="N" name ="N">
+<label for ="b">N</label></td>
+<td class="jack">
+<input type="checkbox" id="G" name ="G">
+<label for ="b">G</label></td>
+<td class="jack">
+<input type="checkbox" id="O" name ="O">
+<label for ="b">O</label>
+</td>
+   </tr>
+     <tr>
+          <td id="a0j" onclick="a0()" ><button  id ="a0"></button></td>
+          <td  id="a1j"><button onclick="a1()" id ="a1"></button>
+
+          </td>
+          <td  id="a2j"><button onclick="a2()" id ="a2"></button>
+
+          </td>
+          <td  id="a3j"><button onclick="a3()" id ="a3"></button>
+
+          </td>
+          <td  id="a4j"><button onclick="a4()" id ="a4"></button>
+
+          </td>
+     </tr>
+     <tr>
+          <td id="b0j"><button onclick="b0()" id ="b0"></button>
+
+          </td>
+          <td  id="b1j"><button onclick="b1()"id ="b1"></button>
+
+          </td>
+          <td  id="b2j"><button onclick="b2()" id ="b2"></button>
+
+          </td>
+          <td  id="b3j" ><button onclick="b3()" id ="b3"></button>
+
+          </td>
+          <td  id="b4j"><button onclick="b4()" id ="b4"></button>
+
+          </td>
+     </tr>
+     <tr>
+          <td id="c0j"><button onclick="c0()" id ="c0"></button>
+
+          </td>
+          <td  id="c1j"><button onclick="c1()" id ="c1"></button>
+
+          </td>
+          <td  id="c2j"><button onclick="c2()" id ="c2"></button>
+
+          </td>
+          <td  id="c3j" ><button onclick="c3()" id ="c3"></button>
+
+          </td>
+          <td  id="c4j"><button onclick="c4()" id ="c4"></button>
+
+          </td>
+     </tr>
+     <tr>
+          <td id="d0j"><button onclick="d0()" id ="d0"></button>
+
+          </td>
+          <td  id="d1j"><button onclick="d1()" id ="d1"></button>
+
+          </td>
+          <td  id="d2j"><button onclick="d2()" id ="d2"></button>
+
+          </td>
+          <td  id="d3j" ><button onclick="d3()" id ="d3"></button>
+
+          </td>
+          <td  id="d4j"><button onclick="d4()" id ="d4"></button>
+
+          </td>
+     </tr>
+     <tr>
+          <td id="e0j"><button onclick="e0()" id ="e0"></button>
+
+          </td>
+          <td  id="e1j"><button onclick="e1()" id ="e1"></button>
+
+          </td>
+          <td  id="e2j"><button onclick="e2()" id ="e2"></button>
+
+          </td>
+          <td  id="e3j" ><button onclick="e3()" id ="e3"></button>
+
+          </td>
+          <td  id="e4j"><button onclick="e4()" id ="e4"></button>
+
+          </td>
+     </tr>
+    
+</table>
+</div>
+<script src="socket.io/socket.io.js"></script>
+<script>
+     const socket=io();
+</script>
+<script src="jassi.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo
+    </title>
+    <link rel ="stylesheet" href ="bingo.css" type =" text/css"/>
+
+</head>
+
+<body>
+    <div class="heading">
+
+        <h2>Let's BINGO</h2>
+
+    </div>
+
+    <div class="options">
+
+    </div>
+
+    <div class ="indicator">
+        <tr>
+            <td class="jack">
+            <input type="checkbox" id="B" name ="B">
+       <label for ="b">B</label></td>
+       <td class="jack">
+       <input type="checkbox" id="I" name ="I">
+       <label for ="b">I</label></td>
+       <td class="jack">
+       <input type="checkbox" id="N" name ="N">
+       <label for ="b">N</label></td>
+       <td class="jack">
+       <input type="checkbox" id="G" name ="G">
+       <label for ="b">G</label></td>
+       <td class="jack">
+       <input type="checkbox" id="O" name ="O">
+       <label for ="b">O</label>
+       </td>
+          </tr>
+    </div>
+  <div class="game">
+        <table class="table" >
+            <tr>
+                <td id="1" onclick="check(1)"></td>
+                <td  id="2"onclick="check(2)" ></td>
+                <td  id="3"onclick="check(3)" ></td>
+                <td  id="4"onclick="check(4)" ></td>
+                <td  id="5"onclick="check(5)" ></td>
+           </tr>
+           <tr>
+                <td  id="6"onclick="check(6)" ></td>
+                <td  id="7"onclick="check(7)"></td>
+                <td  id="8"onclick="check(8)" ></td>
+                <td  id="9" onclick="check(9)"></td>
+                <td  id="10"onclick="check(10)" ></td>
+           </tr>
+           <tr>
+                <td  id="11"onclick="check(11)" ></td>
+                <td  id="12"onclick="check(12)"></td>
+                <td  id="13"onclick="check(13)"></td>
+                <td  id="14" onclick="check(14)" ></td>
+                <td  id="15"onclick="check(15)" ></td>
+           </tr>
+           <tr>
+                <td  id="16"onclick="check(16)" ></td>
+                <td  id="17"onclick="check(17)"></td>
+                <td  id="18"onclick="check(18)" ></td>
+                <td  id="19" onclick="check(19)" ></td>
+                <td  id="20"onclick="check(20)" ></td>
+           </tr>
+           <tr>
+                <td  id="21"onclick="check(21)" ></td>
+                <td  id="22"onclick="check(22)" ></td>
+                <td  id="23"onclick="check(23)" ></td>
+                <td  id="24" onclick="check(24)" ></td>
+                <td  id="25"onclick="check(25)" ></td>
+           </tr>
+        
+        </table>
+        
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+<script>
+     const socket=io();
+</script>
+
+<script src="bingo.js"></script>
+</body>
+</html>

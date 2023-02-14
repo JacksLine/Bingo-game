@@ -1,0 +1,41 @@
+
+table{
+    border: solid rgb(30, 214, 27); ;
+    margin-left: auto;
+    margin-right: auto;
+}
+td
+{
+    border : 1px solid rgb(30, 214, 27);
+   
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    margin: 0%;
+    background-color: white;
+    
+
+}
+h1{
+    text-align: center;
+    text-shadow: 3mm;
+    color: rgb(247, 5, 206);
+    
+}
+
+td:hover
+{
+    background-color:  rgb(30, 214, 27);
+}
+
+.game
+{
+   width: auto;
+    justify-items: center;
+}
+.indicator{
+    text-align: center;
+
+    justify-content: center;
+}
+
